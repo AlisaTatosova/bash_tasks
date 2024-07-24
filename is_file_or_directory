@@ -9,5 +9,5 @@ elif [ -f "$path" ]
 then
 	echo "Given is file"
 else
-	echo "Given is nor file, not directory"
+	echo "Given is neither file, nor directory"
 fi
