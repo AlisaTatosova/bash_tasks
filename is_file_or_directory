@@ -4,10 +4,10 @@ read -p "Enter file or directory: " path
 
 if [ -d "$path" ]
 then
-	echo "Given is directory"
+	echo "$path is directory"
 elif [ -f "$path" ]
 then
-	echo "Given is file"
+	echo "$path is file"
 else
-	echo "Given is neither file, nor directory"
+	echo "$path is neither file, nor directory"
 fi
